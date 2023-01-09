@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:16.13.2-alpine3.15
 
 # Install fresh packages, neat trick:
 # Create new layer, to make sure that changing a code doesn't require installing node modules again
